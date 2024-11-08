@@ -1,6 +1,6 @@
 name: loggery
 description: "log it is a custom logging package for Flutter that simplifies tracking and debugging app behavior. It supports various log levels, such as debug, info, warning, and error, allowing developers to categorize and filter logs effectively."
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/EslamFares/Loggery
 
 environment:
