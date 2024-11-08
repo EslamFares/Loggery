@@ -37,7 +37,7 @@ loggery.error("error");
 ```diff
 + [log] [ERROR]:message
 ```
-<br> `Custom styles ex (line length - border shape)` <br>
+<!-- <br> `Custom styles ex (line length - border shape)` <br>
 ```
 [log] 
       ╔#######################################################################################################################
@@ -54,7 +54,7 @@ loggery.error("error");
       ║[Loggery   ][00:19:06.983]:
       ║massage
       ╚═══════════════════════════════════════════════════════════════════════════════
-```
+``` -->
 
 <br> `Use Print instead of log` <br>
 ```diff
