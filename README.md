@@ -11,7 +11,7 @@ Logger is a custom logging package for Flutter that simplifies tracking and debu
 
 ### Resources:
 
-- [Pub Package](https://pub.dev/packages/Loggery)
+- [Pub Package](https://pub.dev/packages/loggery)
 - [GitHub Repository](https://github.com/EslamFares/Loggery)
 
 ## Getting Started
