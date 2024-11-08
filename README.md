@@ -26,6 +26,82 @@ logger.error("error");
 
 ## Output
 <br> `Default styles` <br>
+```diff
+- [log] 
+-      ╔════════════════════════════════════════════════════════════════════════════════════
+-      ║[ERROR][00:26:54.170]:
+-      ║message
+-      ╚════════════════════════════════════════════════════════════════════════════════════
+```
+<br> `Simple styles` <br>
+```diff
++ [log] [ERROR]:message
+```
+<br> `Custom styles ex (line length - border shape)` <br>
+```
+[log] 
+      ╔#######################################################################################################################
+      ║[Loggery][00:19:06.981]:
+      ║massage
+      ╚#######################################################################################################################
+[log] 
+      ╔***************************************************************************************************
+      ║[Loggery][00:19:06.981]:
+      ║massage
+      ╚***************************************************************************************************
+[log] 
+      ╔═══════════════════════════════════════════════════════════════════════════════
+      ║[Loggery   ][00:19:06.983]:
+      ║massage
+      ╚═══════════════════════════════════════════════════════════════════════════════
+```
+<br> `Custom message styles (Default - Divided into equal lines - Put a border at the beginning of each line)` <br>
+```
+[log] 
+      ╔════════════════════════════════════════════════════════════════════════════════════
+      ║[ERROR][00:37:33.775]:
+      ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      ║Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+      ║unknown printer took a galley of type and scrambled it to make a type specimen book.
+      ║It has survived not only five centuries, but also the leap into electronic
+      ║typesetting, remaining essenti
+      ╚════════════════════════════════════════════════════════════════════════════════════
+[log] 
+      ╔════════════════════════════════════════════════════════════════════════════════════
+      ║[INFO][00:37:33.778]:
+      ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500
+s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in
+to electronic typesetting, remaining essenti
+      ╚════════════════════════════════════════════════════════════════════════════════════
+[log] 
+      ╔════════════════════════════════════════════════════════════════════════════════════
+      ║[LogIt][00:37:33.777]:
+      ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+      unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic
+      typesetting, remaining essenti
+      ╚════════════════════════════════════════════════════════════════════════════════════
+```
+$${\color{blue}Blue}$$
+
+<br> `Use Print instead of log` <br>
+```diff
++ D/EGL_emulation(24250): app_time_stats: avg=376.97ms min=9.17ms max=4292.33ms count=12
++ I/flutter (24250): 
++ I/flutter (24250): ╔════════════════════════════════════════════════════════════════════════════════════
++ I/flutter (24250): ║[ERROR][00:41:29.720]:
++ I/flutter (24250): ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
++ I/flutter (24250): ║Ipsum has been the industry's standard dummy text ever since the 1500s, when an
++ I/flutter (24250): ║unknown printer took a galley of type and scrambled it to make a type specimen book.
++ I/flutter (24250): ║It has survived not only five centuries, but also the leap into electronic
++ I/flutter (24250): ║typesetting, remaining essenti
++ I/flutter (24250): ╚════════════════════════════════════════════════════════════════════════════════════
++
+```
+
+## Output Images
+<br> `Default styles` <br>
 ![](https://github.com/EslamFares/My-Gallery/blob/master/log_it/1.png)
 ![](https://github.com/EslamFares/My-Gallery/blob/master/log_it/2.png)
 <br> `Simple styles` <br>
