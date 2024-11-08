@@ -19,9 +19,9 @@ Logger is a custom logging package for Flutter that simplifies tracking and debu
 Just create an instance of `Logger` and start logging:
 
 ```dart
-Loggery logger = Loggery();
+Loggery loggery = Loggery();
 
-logger.error("error");
+loggery.error("error");
 ```
 
 ## Output
@@ -124,7 +124,7 @@ Loggery printIt = Loggery(
 
 When you are finished with the debugging stage, you can stop Loggery without delete or commit it.
 ```dart
-Loggery printIt = Loggery(
+Loggery loggery = Loggery(
   isLoggingEnabled: false,
 );
 ```

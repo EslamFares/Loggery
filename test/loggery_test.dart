@@ -4,7 +4,7 @@ import 'package:loggery/loggery.dart';
 
 void main() {
   test('logger test', () {
-    Logger logit = Logger();
+    Loggery logit = Loggery();
     logit.green("hello Logger test");
   });
 }

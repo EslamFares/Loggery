@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-class Logger {
+class Loggery {
   final bool _isLoggingEnabled;
   final String _title;
   final int _lineLength;
@@ -15,7 +15,7 @@ class Logger {
   final bool _simpleShapeLog;
   final bool _usePrint;
 
-  Logger({
+  Loggery({
     bool isLoggingEnabled = true,
     String title = "Loggery",
     int lineLength = 85,
