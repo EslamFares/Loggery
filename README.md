@@ -1,10 +1,10 @@
 # Loggery
 
-[![pub package](https://img.shields.io/pub/v/Loggery.svg?logo=dart&logoColor=00b9fc)](https://pub.dartlang.org/packages/Loggery)
+[![pub package](https://img.shields.io/pub/v/loggery.svg?logo=dart&logoColor=00b9fc)](https://pub.dartlang.org/packages/loggery)
 [![Last Commits](https://img.shields.io/github/last-commit/EslamFares/Loggery?logo=git&logoColor=white)](https://github.com/EslamFares/Loggery/commits/main)
 [![Pull Requests](https://img.shields.io/github/issues-pr/EslamFares/Loggery?logo=github&logoColor=white)](https://github.com/EslamFares/Loggery/pulls)
 [![Code size](https://img.shields.io/github/languages/code-size/EslamFares/Loggery?logo=github&logoColor=white)](https://github.com/EslamFares/Loggery)
-[![License](https://img.shields.io/github/license/EslamFares/Loggery?logo=open-source-initiative&logoColor=green)](https://github.com/EslamFares/Loggery/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/EslamFares/loggery?logo=open-source-initiative&logoColor=green)](https://github.com/EslamFares/Loggery/blob/main/LICENSE)
 
 Logger is a custom logging package for Flutter that simplifies tracking and debugging app behavior. It supports various log levels, such as debug, info, warning, and error, allowing developers to categorize and filter logs effectively.<br>
 
