@@ -26,12 +26,12 @@ logger.error("error");
 
 ## Output
 <br> `Default styles` <br>
-```diff
-- [log] 
--      ╔════════════════════════════════════════════════════════════════════════════════════
--      ║[ERROR][00:26:54.170]:
--      ║message
--      ╚════════════════════════════════════════════════════════════════════════════════════
+```
+ [log] 
+      ╔════════════════════════════════════════════════════════════════════════════════════
+      ║[ERROR][00:26:54.170]:
+      ║message
+      ╚════════════════════════════════════════════════════════════════════════════════════
 ```
 <br> `Simple styles` <br>
 ```diff
@@ -55,35 +55,6 @@ logger.error("error");
       ║massage
       ╚═══════════════════════════════════════════════════════════════════════════════
 ```
-<br> `Custom message styles (Default - Divided into equal lines - Put a border at the beginning of each line)` <br>
-```
-[log] 
-      ╔════════════════════════════════════════════════════════════════════════════════════
-      ║[ERROR][00:37:33.775]:
-      ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-      ║Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-      ║unknown printer took a galley of type and scrambled it to make a type specimen book.
-      ║It has survived not only five centuries, but also the leap into electronic
-      ║typesetting, remaining essenti
-      ╚════════════════════════════════════════════════════════════════════════════════════
-[log] 
-      ╔════════════════════════════════════════════════════════════════════════════════════
-      ║[INFO][00:37:33.778]:
-      ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500
-s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in
-to electronic typesetting, remaining essenti
-      ╚════════════════════════════════════════════════════════════════════════════════════
-[log] 
-      ╔════════════════════════════════════════════════════════════════════════════════════
-      ║[LogIt][00:37:33.777]:
-      ║Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-      unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has survived not only five centuries, but also the leap into electronic
-      typesetting, remaining essenti
-      ╚════════════════════════════════════════════════════════════════════════════════════
-```
-$${\color{blue}Blue}$$
 
 <br> `Use Print instead of log` <br>
 ```diff
