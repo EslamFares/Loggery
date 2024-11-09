@@ -113,10 +113,18 @@ Customize
 
 ```dart
 Loggery printIt = Loggery(
-  isLoggingEnabled: true,
-  usePrint: true,
-  addEnterAtFirst: true,
+  title: "loggery",
+  usePrint: false,
   lineLength: 100,
+  addEnterAtFirst: true,
+  splitMsgToSameLineLength: true,
+  splitMsgToSameLineLengthAddLeading: true,
+  msgStartInNewLine: true,
+  lineShape: "═",
+  makeTitleSameWidth: false,
+  fullLineTitleAndTime: false,
+  simpleBorderOneLine: false,
+  simpleShapeLog: false,
 );
 ```
 
